@@ -1,0 +1,45 @@
+/* FOR TABLET */
+@media screen and (max-width:800px){
+    .nav-main{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .nav-main div {
+        margin: 20px 0px;
+    }
+    .popular-main{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+}
+
+
+/* FOR MOBILE */
+@media screen and (max-width:500px){
+    .nav-main{
+        flex-direction: row;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-menu{
+        display: block;
+    }
+.banner-main{
+    flex-direction: column;
+}
+.banner-child{
+    width: 100%;
+}
+.popular-main{
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    
+}
+.abcd-main{
+    height: 50px;
+    padding: 20px;
+}
+
+}
