@@ -42,4 +42,20 @@
     padding: 20px;
 }
 
+.qna-main {
+    margin-top: 300px;
+    flex-direction: column;
+    height: auto;
+}
+.qna-child{
+    width: 80%;
+}
+.form-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.form-field{
+    width: 80%;
+}
 }
